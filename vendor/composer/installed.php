@@ -463,15 +463,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'symfony/orm-pack' => array(
-            'pretty_version' => 'v2.2.0',
-            'version' => '2.2.0.0',
-            'reference' => 'c4728ba9ed071876f71df637c7dff0490c9252b2',
-            'type' => 'symfony-pack',
-            'install_path' => __DIR__ . '/../symfony/orm-pack',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'symfony/password-hasher' => array(
             'pretty_version' => 'v6.1.3',
             'version' => '6.1.3.0',

@@ -5,4 +5,5 @@
 return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], [], []],
     'user_index' => [[], ['_controller' => 'App\\Controller\\UserController::id'], [], [['text', '/lucky/number']], [], [], []],
+    'app_brand_new' => [[], ['_controller' => 'App\\Controller\\BrandNewController::index'], [], [['text', '/brand/new']], [], [], []],
 ];
