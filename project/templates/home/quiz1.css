@@ -1,0 +1,314 @@
+
+html, body{
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+*{
+    scroll-behavior: smooth !important;
+}
+
+.home-section{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('./backk.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.home-section:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.home-section .scroll-down img{
+    width: 25px;
+    display: block;
+}
+.home-section .scroll-down{
+    position: absolute;
+    width: 30px;
+    left: 50%;
+    height: 30px;
+    bottom: 30px;
+    animation: scrollDown 2s ease infinite;
+}
+@keyframes scrollDown {
+    0%,20%,50%,80%,100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    
+}
+
+.navbar *{
+    color: white !important ;
+}
+
+.navbar *:hover{
+    color: goldenrod !important;
+}
+.navbar-nav a{
+    font-family: cursive;
+	font-size: 18px;
+	text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+.navbar-light .navbar-brand {
+	padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    font-family: cursive;
+}
+
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+    background: white !important;
+}
+
+.bgColor{
+    background-color: black !important;
+    transition: all 0.5s ease;
+}
+
+.home-section .row{
+    height: 100vh;
+    margin: 0 !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    border-radius: 20%;
+}
+
+.home-section .row h3{
+    text-transform: uppercase;
+}
+.home-section a{
+    position: absolute;
+    left: 45%;
+    color: white;
+}
+
+.home-section a:hover{
+    color: goldenrod;
+}
+.about-section{
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 70px;
+}
+
+.about-section img{
+    width: 100%;
+    padding: 10px;
+}
+
+#content{
+    color: black;
+    font-weight: 500;
+}
+
+.about-section .title{
+    max-width: 100%;
+}
+
+.about-section .title h1{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+}
+
+.about-section p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.skills-section{
+    padding: 70px;
+}
+.skills-section .row{
+    margin: 0 !important;
+    text-align: center;
+    margin-bottom: 25px !important;
+}
+
+.skills-section img{
+    width: 100%;
+    border-radius: 20%;
+    transition: all 0.5s ease;
+}
+
+.skills-section img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
+
+.skills-section .title{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.skills-section .item{
+    padding: 25px;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.skills-section .item h4{
+    margin-top: 10px;
+}
+
+.hobbiess-section{
+    padding: 70px;
+}
+
+.hobbies-section .row{
+    margin: 0 !important;
+    text-align: center;
+    margin-bottom: 25px !important;
+}
+
+.hobbies-section img{
+    width: 100%;
+    border-radius: 20%;
+    transition: all 0.5s ease;
+}
+
+.hobbies-section img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
+
+.hobbies-section .title{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.hobbies-section .item{
+    padding: 25px;
+    border-radius: 20%;
+    margin: 20px;
+
+}
+
+.hobbies-section .item h4{
+    margin-top: 10px;
+}
+
+.footer{
+    padding: 60px;
+    background-color: black;
+}
+
+.social{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+}
+.social h4{
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.social h4::before{
+	content: '';
+	position: absolute;
+	left:70px;
+	bottom: -10px;
+	background-color: #e0ac1c;
+	height: 2px;
+	box-sizing: border-box;
+	width: 100px;
+}
+
+.social .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	color: #ffffff;
+    font-size: 20px;
+    border-radius: 70%;
+}
+.fa{
+    padding: 10px;
+    border-radius: 70%;
+}
+.fa:hover{
+	color: grey;
+}
+
+.footerbottom{
+    text-align:center;
+    color: #999;
+    padding-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+@media screen and (max-width: 768px){
+    body{
+        font-size: 1em;
+    }
+}
+
